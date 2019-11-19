@@ -1,3 +1,23 @@
+.red-clr {
+  background: #ff3f34 !important;
+  color: #ecf0f1 !important;
+}
+
+.green-clr {
+  background: #2ecc71 !important;
+  color: #2c3e50 !important;
+}
+
+.yellow-clr {
+  background: #ffd32a !important;
+  color: #2c3e50 !important;
+}
+
+.blue-clr {
+  background: #3498db !important;
+  color: #ecf0f1 !important;
+}
+
 .snackbar {
   display: flex;
   flex-direction: column;
