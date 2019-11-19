@@ -78,23 +78,4 @@ class Snackbar {
         }, 2)
 
     }
-
-
 }
-
-// demo 
-
-$(document).ready(function () {
-
-    var bar = new Snackbar()
-    bar.setType("error")
-
-    document.body.appendChild(createElement("button", { "id": "demo" }, "demo"));
-
-    var login_btn = document.querySelector('#demo');
-
-    login_btn.addEventListener('click', function () {
-        bar.showBar("hi", 2000)
-    });
-
-})
