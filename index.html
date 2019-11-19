@@ -1,41 +1,6 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="fonts/css/all.css">
-    <link rel="stylesheet" href="main.css">
-    <script src="js/jquery.js"></script>
-</head>
-
-<body>
-    <form id="login-form" class="container">
-        <div class="form-logo-cnt">
-            <i class="fas fa-brain"></i>
-        </div>
-        <div class="sep-16"></div>
-        <div class="form-input-cnt">
-            <input type="text" placeholder="Enter your name" name="name" id="name">
-            <div class="sep-6"></div>
-            <input type="password" placeholder="Enter your password" name="password" id="password">
-        </div>
-        <div class="sep-12"></div>
-        <div id="login-btn" class="form-btn-cnt">
-            <a href="javascript:void()">Login</a>
-            <i class="fas fa-sign-in-alt"></i>
-        </div>
-    </form>
-    </div>
-</body>
-<script src="main.js"></script>
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,25 +9,28 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="snack.css">
 </head>
+
 <body>
-    
+
 </body>
 <script src="snack.js"></script>
 <script>
-$(document).ready(function () {
+    $(document).ready(function () {
 
-var bar = new Snackbar()
-bar.setType("error")
+        var bar = new Snackbar()
+        bar.setType("error")
 
-document.body.appendChild(createElement("button", { "id": "demo" }, "demo"));
+        document.body.appendChild(createElement("button", {
+            "id": "demo"
+        }, "demo"));
 
-var login_btn = document.querySelector('#demo');
+        var login_btn = document.querySelector('#demo');
 
-login_btn.addEventListener('click', function () {
-    bar.showBar("hi", 2000)
-});
+        login_btn.addEventListener('click', function () {
+            bar.showBar("hi", 2000)
+        });
 
-})
+    })
 </script>
-</html>
 
+</html>
