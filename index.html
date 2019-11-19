@@ -5,32 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Snackbar Demo</title>
+    <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="snack.css">
 </head>
-
 <body>
 
 </body>
 <script src="snack.js"></script>
-<script>
-    $(document).ready(function () {
-
-        var bar = new Snackbar()
-
-        document.body.appendChild(createElement("button", {
-            "id": "demo"
-        }, "demo"));
-
-        var login_btn = document.querySelector('#demo');
-
-        login_btn.addEventListener('click', function () {
-            bar.setType("error")
-            bar.showBar("hi", 2000)
-        });
-
-    })
-</script>
-
 </html>
