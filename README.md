@@ -2,6 +2,8 @@
 
 An android styled snackbar for web based application with responsive design.
 
+[Live Site](https://akr1999.github.io/snackbar)
+
 ## Features
 
 * Responsive design
