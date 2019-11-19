@@ -7,6 +7,7 @@ An android styled snackbar for web based application with responsive design.
 * Responsive design
 * Consists of four types: Info, Error, Warn, Success.
 * Need to define only a variable and several call will make things happen!
+* Helper class to ease out task ( last section )
 
 ## Getting Started
 
@@ -222,5 +223,18 @@ An android styled snackbar for web based application with responsive design.
     bar.showBar("[your success message]", [time in millesecond or sec*1000])
 ```
 
+# Helper class
 
+```
+// declare using
+sh = new SnackbarHelper()
+
+//call this function to show the message
+sh.addToList([message],[time],[type])
+
+```
+
+## Note
+
+* [time] = make sure not to keep time big as it may delay other messages
 
