@@ -1,0 +1,40 @@
+.snackbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  background: #ecf0f1;
+}
+
+.snackbar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+@media (max-width: 767px) {
+  .snackbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+}
+
+@media (min-width: 768px) {
+  .snackbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }  
+}
